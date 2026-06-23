@@ -4,7 +4,7 @@
 
 ---
 
-A car dealership module for **DarkRP** (Garry's Mod) built on
+A [**car dealership**](https://steamcommunity.com/sharedfiles/filedetails/?id=3750072814) module for **DarkRP** (Garry's Mod) built on
 [**simfphys**](https://steamcommunity.com/sharedfiles/filedetails/?id=771487490) vehicles.
 Players browse a 3D showroom, buy cars, store them, spawn/return them at parking spots, and
 sell them back. An **optional** second‑hand market lets players resell cars to each other.
