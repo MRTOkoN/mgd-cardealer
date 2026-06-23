@@ -30,6 +30,7 @@ sell them back. An **optional** second‑hand market lets players resell cars to
 | **DarkRP** | base gamemode, `MySQLite`, money API (`canAfford` / `addMoney`) |
 | **simfphys** (+ a vehicle pack, e.g. GTA IV cars) | the actual vehicles |
 | **netstream** | networking library used for menus and actions |
+| **Proxy Color tool** | multi-channel color customization for supported models |
 
 ---
 
