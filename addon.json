@@ -1,0 +1,9 @@
+{
+	"title": "MGD Cardealer",
+	"type": "servercontent",
+	"tags": ["roleplay", "fun", "realism"],
+	"ignore": [
+		"*.md",
+		".git/*"
+	]
+}
