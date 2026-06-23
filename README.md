@@ -1,5 +1,9 @@
 # mgd-cardealer
 
+![Menu screenshot](assets/screenshot1.png)
+
+---
+
 A car dealership module for **DarkRP** (Garry's Mod) built on
 [**simfphys**](https://steamcommunity.com/sharedfiles/filedetails/?id=771487490) vehicles.
 Players browse a 3D showroom, buy cars, store them, spawn/return them at parking spots, and
