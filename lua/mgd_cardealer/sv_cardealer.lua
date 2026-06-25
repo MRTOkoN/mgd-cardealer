@@ -255,7 +255,7 @@ end
 function MGD.Cardealer.WriteData(class)
     local vehicle = simfphysCars[class]
     local health = !vehicle.Members.MaxHealth and math.floor((1000 + vehicle.Members.Mass * 0.75 / 3)) or vehicle.Members.MaxHealth
-    MySQLite.query(string.format([[INSERT INTO mgd_cardealer_data (health, fuel, colorR, colorG, colorB, wheelFL, wheelFR, wheelRL, wheelRR) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)]], MySQLite.SQLStr(health), MySQLite.SQLStr(vehicle.Members.FuelTankSize), 255, 255, 255, 'FALSE', 'FALSE', 'FALSE', 'FALSE'))
+    MySQLite.query(string.format([[INSERT INTO mgd_cardealer_data (health, fuel, colorR, colorG, colorB, wheelFL, wheelFR, wheelRL, wheelRR) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)]], MySQLite.SQLStr(health), MySQLite.SQLStr(vehicle.Members.FuelTankSize), 255, 255, 255, 'FALSE', 'FALSE', 'FALSE', 'FALSE'))
 end
 
 function MGD.Cardealer.WriteCar(steamid, carClass)
